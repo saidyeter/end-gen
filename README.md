@@ -1,8 +1,8 @@
 # end-gen
 Endpoint Generator
 
-A Restful API builder library idea using C# Source Generators
-Sometimes we create so much boiler plate code. And C# Source Generators might be a solution for some cases
+A Restful API builder library idea using C# Source Generators  
+Sometimes we create so much boiler-plate code. And C# Source Generators might be a solution for some cases  
 
 ## Concept example
 
@@ -99,10 +99,10 @@ public class GeneratedBookInstructionsController : ControllerBase
 ```
 
 ## Why
-Actually creating controller is not that hard. And there is not that much boiler-plate code, up there.
-But this will allow some opportunitis for:
-- pagination
-- mapping results 
-- pre and post process for endpoints
+Actually creating controller is not that hard. And there is not that much boiler-plate code, up there.  
+But this will allow some opportunitis for:  
+- pagination and filtering by query params like `take`, `skip`, `select` and so on.  
+- mapping results  
+- pre and post process for endpoints  
 Developer always will have control on data, and this will make tasks quicker to produce.  
-This idea came from OData and GraphQL. This concepts allows us to manipulate response data according to way how you make a request.
+This idea came from OData and GraphQL. This concepts allows us to manipulate response data according to way how you make a request.  
